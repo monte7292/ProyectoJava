@@ -1,41 +1,81 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Tienda</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/videojuegos.css">
+
+        <title>Tienda VJ</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" width="30" height="30" alt="">
+                Tienda VJ
+            </a>
+        </nav>
+
+        <div class="container mt-4 vj-destacados mb-4">
+            <div class="row">
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img src="https://cdn1.epicgames.com/catnip/offer/BL3Wide_2560x1440-2560x1440-462318f36bee20de4412e111ef72dc62.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Borderlands 3</h5>
+                            <p class="card-text">¡Vuelve el padre de los shooter-looter, con tropecientas mil armas y una aventura caótica!</p>
+                        </div>
+                        <div class="card-footer text-muted">
+                            <a href="#" class="btn btn-primary">Ver detalles</a>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card ">
+                        <img src="https://store-images.s-microsoft.com/image/apps.32013.64090029807136264.88ddb0db-cfad-423c-bb52-c5b649930fb1.26ba6d14-3c7a-4d96-b3ba-7df17ae976c8?q=90&w=480&h=270" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Control</h5>
+                            <p class="card-text">Tras la invasión de una agencia secreta de Nueva York por parte de una amenaza de otro mundo, te conviertes en la nueva directora que deberá luchar para recuperar Control.</p>
+                        </div>
+                        <div class="card-footer text-muted">
+                            <a href="#" class="btn btn-primary">Ver detalles</a>
+                        </div>                                        
+                    </div>                  
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card ">
+                        <img src="https://store.playstation.com/store/api/chihiro/00_09_000/container/ES/es/999/EP5426-CUSA13893_00-2222444466669999/1568624921000/image?w=240&h=240&bg_color=000000&opacity=100&_version=00_09_000" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Subnautica</h5>
+                            <p class="card-text">Un juego de aventuras submarinas ambientado en un mundo oceánico alienígena. ¡Te espera un mundo abierto enorme lleno de maravillas y peligros! </p>
+                        </div>
+                        <div class="card-footer text-muted">
+                            <a href="#" class="btn btn-primary">Ver detalles</a>
+                        </div>                    
+                    </div>                
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card ">
+                        <img src="https://www.mobygames.com/images/covers/l/323028-firewatch-playstation-4-front-cover.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Firewatch</h5>
+                            <p class="card-text">Firewatch es un juego de misterio en primera persona para un jugador que se desarrolla en la selva de Wyoming</p>
+                        </div>
+                        <div class="card-footer text-muted">
+                            <a href="#" class="btn btn-primary">Ver detalles</a>
+                        </div>                                        
+                    </div>                   
+                </div>                                
+            </div>
         </div>
-      </div>
-    </nav>
-    <h1>Bienvenidos a la Tiendaaaaaaaaa</h1>
-    
-    
-  </body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js" integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D" crossorigin="anonymous"></script>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
 </html>
